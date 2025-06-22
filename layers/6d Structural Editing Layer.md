@@ -1,4 +1,4 @@
-title: 6D構造編集レイヤー（Structural Editing Layer）
+# title: 6D構造編集レイヤー（Structural Editing Layer）
 dimension: 6D
 category: Layer Definition
 author: FeeroLink Project
