@@ -1,4 +1,4 @@
-title: 7D理念創出レイヤー（Ideation Layer）
+# title: 7D理念創出レイヤー（Ideation Layer）
 dimension: 7D
 category: Layer Definition
 author: FeeroLink Project
