@@ -1,4 +1,4 @@
-title: 4D縁起レイヤー（Relational Layer）
+# title: 4D縁起レイヤー（Relational Layer）
 dimension: 4D
 category: Layer Definition
 author: FeeroLink Project
