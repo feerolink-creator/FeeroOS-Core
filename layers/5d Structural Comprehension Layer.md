@@ -1,4 +1,4 @@
-title: 5D構造理解レイヤー（Structural Comprehension Layer）
+# title: 5D構造理解レイヤー（Structural Comprehension Layer）
 dimension: 5D
 category: Layer Definition
 author: FeeroLink Project
