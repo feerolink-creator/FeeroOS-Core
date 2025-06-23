@@ -63,7 +63,7 @@ FeeroOSでは、知性・観測・意味編集の各プロセスを「次元（D
 
 ---
 
-[次元階層設計](https://github.com/feerolink-creator/FeeroOS-Core/blob/main/images/Dimensional%20Engine%20v2.0.png)
+[全次元階層設計](https://github.com/feerolink-creator/FeeroOS-Core/blob/main/images/全次元構造図v2.0.png)
 
 [跳躍設計](https://github.com/feerolink-creator/FeeroOS-Core/blob/main/images/transition_map_v1.png)
 
