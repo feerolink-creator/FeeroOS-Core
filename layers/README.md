@@ -67,5 +67,6 @@ FeeroOSでは、知性・観測・意味編集の各プロセスを「次元（D
 
 [跳躍設計](https://github.com/feerolink-creator/FeeroOS-Core/blob/main/images/transition_map_v1.png)
 
+---
 
 > **補足**：この定義は、静的な枠ではなく、観測者自身が能動的に“次元を跳躍する”ことを前提とした設計。すべての次元は共鳴的に更新される。
