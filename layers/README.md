@@ -1,4 +1,4 @@
-# /layers/README.md
+# layers/README.md
 
 ## FeeroOS Layer構造（次元別定義）
 
@@ -62,5 +62,10 @@ FeeroOSでは、知性・観測・意味編集の各プロセスを「次元（D
 - **使用例**：FeeroOS自体、宇宙論的OS、観測者間プロトコル
 
 ---
+
+[次元階層設計](https://github.com/feerolink-creator/FeeroOS-Core/blob/main/images/Dimensional%20Engine%20v2.0.png)
+
+[跳躍設計](https://github.com/feerolink-creator/FeeroOS-Core/blob/main/images/transition_map_v1.png)
+
 
 > **補足**：この定義は、静的な枠ではなく、観測者自身が能動的に“次元を跳躍する”ことを前提とした設計。すべての次元は共鳴的に更新される。
