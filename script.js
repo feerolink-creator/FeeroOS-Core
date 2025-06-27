@@ -140,7 +140,7 @@ nodes.forEach((node) => {
   // Node
   if (node.burden < -8) {
     const image = document.createElementNS("http://www.w3.org/2000/svg", "image");
-    image.setAttributeNS("http://www.w3.org/1999/xlink", "href", "images/funa.PNG");
+    image.setAttributeNS("http://www.w3.org/1999/xlink", "href", "images/funa.png");
     image.setAttribute("x", x - 20);
     image.setAttribute("y", y - 20);
     image.setAttribute("width", "40");
