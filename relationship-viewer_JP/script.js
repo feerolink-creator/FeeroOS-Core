@@ -229,7 +229,7 @@ document.getElementById("addNodeBtn").addEventListener("click", () => {
 
   if (burden < -2) {
     const li = document.createElement("li");
-    li.textContent = `${name} さんは心理的に負担になっているようです。関わりを減らすための具体的な相談を支援員とすることができます。`;
+    li.textContent = `${name} さんが心理的に負担になっているようです。関わりを減らすための具体的な相談を支援員とすることができます。`;
     supportMessages.appendChild(li);
   }
 });
