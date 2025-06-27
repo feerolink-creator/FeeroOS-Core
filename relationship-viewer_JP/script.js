@@ -167,7 +167,7 @@ nodes.forEach((node) => {
   // 支援メッセージ
   if (node.burden < -2) {
     const li = document.createElement("li");
-    li.textContent = `${node.name} さんは心理的に負担になっているようです。関わりを減らすための具体的な相談を支援員とすることができます。`;
+    li.textContent = `${node.name} さんが心理的に負担になっているようです。関わりを減らすための具体的な相談を支援員とすることができます。`;
     supportMessages.appendChild(li);
   }
 });
