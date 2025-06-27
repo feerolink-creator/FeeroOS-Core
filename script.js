@@ -50,7 +50,7 @@ quadrants.forEach(q => {
   svg.appendChild(rect);
 });
 
-// 軸ラベル
+// Axes label
 const yAxisLabel = document.createElementNS("http://www.w3.org/2000/svg", "text");
 yAxisLabel.setAttribute("x", 10);
 yAxisLabel.setAttribute("y", 20);
