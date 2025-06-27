@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>人間関係ノードマップ（家族編）</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <h1>人間関係ノードマップ（家族編）</h1>
+  <div id="chart-container">
+    <svg id="chart" width="800" height="600"></svg>
+  </div>
+  <div id="support-container">
+    <h2>支援メッセージ</h2>
+    <ul id="support-messages"></ul>
+  </div>
+  <div id="form-container">
+  <h2>ノード追加</h2>
+  <input type="text" id="nameInput" placeholder="名前"/>
+  <input type="number" id="distanceInput" placeholder="距離 (-10～10)" min="-10" max="10"/>
+  <input type="number" id="burdenInput" placeholder="負荷 (-10～10)" min="-10" max="10"/>
+  <select id="statusInput">
+    <option value="安心">安心</option>
+    <option value="不安">不安</option>
+    <option value="話をきいてくれない">話をきいてくれない</option>
+  </select>
+  <button id="addNodeBtn">追加する</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
