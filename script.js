@@ -50,6 +50,21 @@ quadrants.forEach(q => {
   svg.appendChild(rect);
 });
 
+// 軸ラベル
+const yAxisLabel = document.createElementNS("http://www.w3.org/2000/svg", "text");
+yAxisLabel.setAttribute("x", 10);
+yAxisLabel.setAttribute("y", 20);
+yAxisLabel.setAttribute("font-size", "12");
+yAxisLabel.textContent = "Burden（+/-）";
+svg.appendChild(yAxisLabel);
+
+const xAxisLabel = document.createElementNS("http://www.w3.org/2000/svg", "text");
+xAxisLabel.setAttribute("x", width - 80);
+xAxisLabel.setAttribute("y", height - 10);
+xAxisLabel.setAttribute("font-size", "12");
+xAxisLabel.textContent = "Distance";
+svg.appendChild(xAxisLabel);
+
 // Zero axes
 const vLine = document.createElementNS("http://www.w3.org/2000/svg", "line");
 vLine.setAttribute("x1", scaleX(0));
