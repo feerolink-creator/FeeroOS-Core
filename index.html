@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Human Relationship Node Map (Family Edition)</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+    #form-container {
+      margin: 20px auto;
+      padding: 10px;
+      background: #fff;
+      border: 1px solid #ddd;
+      display: inline-block;
+    }
+    #form-container input,
+    #form-container select {
+      margin: 5px;
+    }
+    #support-container {
+      margin: 20px auto;
+      padding: 10px;
+      background: #fff7f7;
+      border: 1px solid #ddd;
+      display: inline-block;
+      text-align: left;
+    }
+    #support-container ul {
+      padding-left: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Human Relationship Node Map (Family Edition)</h1>
+  <p>Burden (+/-)</p>
+  <svg id="chart"></svg>
+
+  <div id="support-container">
+    <h2>Support Messages</h2>
+    <ul id="support-messages"></ul>
+  </div>
+
+  <div id="form-container">
+    <h2>Add Node</h2>
+    <input type="text" id="nameInput" placeholder="Name"/>
+    <input type="number" id="distanceInput" placeholder="Distance (-10 to 10)" min="-10" max="10"/>
+    <input type="number" id="burdenInput" placeholder="Burden (-10 to 10)" min="-10" max="10"/>
+    <select id="statusInput">
+      <option value="Safe">Safe</option>
+      <option value="Anxious">Anxious</option>
+      <option value="Doesn't listen">Doesn't listen</option>
+    </select>
+    <button id="addNodeBtn">Add Node</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
